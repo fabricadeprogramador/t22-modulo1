@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cliente.css" > 
+        <script src="cliente.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Menu -->
+        <nav>
+            <h2> Menu </h2>
+
+            <!-- Lista de Links -->
+            <ul> 
+                <li> <a href=""> Usuário </a> </li>
+                <li> <a href=""> Cliente </a> </li>
+                <li> <a href=""> Professor </a> </li>
+                <li> <a href=""> Curso </a> </li>
+                <li> <a href=""> Sair </a> </li>
+            </ul>
+            
+        </nav>
+
+        <!-- Cadastro de Cliente -->
+        <main>
+            <form>
+                <h1> Cadastro de Cliente</h1>
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="email" placeholder="Email" id="email">
+                <div>
+                    <label> Sexo:</label>
+                    
+                    <label for="masculino"> Masculino </label>
+                    <input id="masculino" name="sexo" type="radio">
+                    
+                    <label for="feminino">Feminino</label>
+                    <input id="feminino" name="sexo" type="radio">
+                </div>
+
+                <fieldset> 
+                    <legend> Cursos de interesse</legend>
+                    <div>
+                        <input type="checkbox">
+                        <label> Curso de Desenvolvimento Web</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox">
+                        <label> Curso de Desenvolvimento Mobile</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox">
+                        <label> Curso de Desenvolvimento Desktop</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <label> Estado </label>
+                    <select id="estado">
+                        <option value=""> Selecione ... </option>
+                        <option value="MT"> Mato Grosso </option>
+                        <option value="MS"> Mato Grosso Do Sul </option>
+                        <option value="SP"> São Paulo </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Foto </label>
+                    <input type="file" id="foto">
+                </div>
+
+                <div>
+                    <label> Data de Nascimento</label>
+                    <input type="date" id="dataDeNascimento">
+                </div>
+
+                <div id="botao" >
+                    <button type="button" onclick="validar()"> Salvar </button>
+                </div>
+
+            </form>
+
+        </main>
+        
+    </body>
+
+</html>

@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>  
+            Desafio 1 - Calculadora  
+         </title>
+
+        <script>
+            
+            var somar = function(){
+                console.log("Somar esta sendo executado!");
+
+                //Obtendo os valores dos campos da tela
+                var numero1 = document.getElementById("numero1").value;
+                var numero2 = document.getElementById("numero2").value;
+                
+                //Convertendo String em Float
+                numero1 = parseFloat(numero1);
+                numero2 = parseFloat(numero2);
+                
+
+                document.getElementById("total").value = numero1+numero2; 
+                
+            }
+
+            var subtrair = function(){
+                console.log("Somar esta sendo executado!");
+
+                //Obtendo os valores dos campos da tela
+                var numero1 = document.getElementById("numero1").value;
+                var numero2 = document.getElementById("numero2").value;
+                
+                //Convertendo String em Float
+                numero1 = parseFloat(numero1);
+                numero2 = parseFloat(numero2);
+                
+
+                document.getElementById("total").value = numero1-numero2; 
+                
+            }
+
+            var dividir = function(){
+                console.log("Somar esta sendo executado!");
+                
+                //Obtendo os valores dos campos da tela
+                var numero1 = document.getElementById("numero1").value;
+                var numero2 = document.getElementById("numero2").value;
+                
+                //Convertendo String em Float
+                numero1 = parseFloat(numero1);
+                numero2 = parseFloat(numero2);
+
+
+                document.getElementById("total").value = numero1/numero2; 
+                
+            }
+
+            var multiplicar = function(){
+                console.log("Somar esta sendo executado!");
+
+                //Obtendo os valores dos campos da tela
+                var numero1 = document.getElementById("numero1").value;
+                var numero2 = document.getElementById("numero2").value;
+                
+                //Convertendo String em Float
+                numero1 = parseFloat(numero1);
+                numero2 = parseFloat(numero2);
+                
+
+                document.getElementById("total").value = numero1*numero2; 
+                
+            }
+
+            console.log("JavaScript Carregado");
+
+         </script>
+
+         <style>
+
+            body{
+               text-align: center; 
+            }
+
+             label {
+                color:black;
+                font-weight: bold;
+                font-size: 25px;
+             }
+
+             input{
+                height: 25px;
+             }
+
+             #total {
+                 margin-left: 50px;
+             }
+
+             button{
+                 margin-top: 20px;
+                 height: 40px;
+                 width: 80px;
+                 color: white;
+                 font-weight: bold;
+             }
+
+             #somar{
+                 background-color: green;
+             }
+
+             #subtrair{
+                 background-color: red;
+             }
+
+             #dividir{
+                 background-color: blue;
+             }
+
+             #multiplicar{
+                 background-color: black;
+             }
+
+
+
+         </style>
+
+    </head>
+
+    <body>
+
+        <h1> Calculadora FDP 2018 </h1>
+
+        <label class="numeros"> Numero 1 </label> 
+        <input type="number" id="numero1" >
+         <br>
+
+        <label class="numeros"> Numero 2 </label> 
+        <input type="number" id="numero2"> 
+        <br>
+
+
+        <label>  Total </label>
+        <input  readonly type="number" id="total"> <br>
+
+        <button id="somar" onclick="somar()"  > Somar </button>
+        <button id="subtrair" onclick="subtrair()"  > Subtrair </button>
+        <button id="dividir" onclick="dividir()"  > Dividir </button>
+        <button id="multiplicar" onclick="multiplicar()"  > Multiplicar </button>
+
+
+    </body>
+</html>

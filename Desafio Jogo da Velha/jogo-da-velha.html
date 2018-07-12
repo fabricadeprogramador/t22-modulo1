@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="jogo-da-velha.css">
+        <script src="jogo-da-velha.js"></script>
+    </head>
+
+    <body>
+        
+        <h1> Jogo da Velha</h1>
+
+        <div id="jogador">
+            
+            <label> Jogador X </label> 
+            <input type="text" id="jogadorX">
+            
+            <label> Jogador O </label>
+            <input type="text" id="jogadorO">
+
+        </div>
+
+        <div id="tabuleiro">
+
+            <input type="text" maxlength="1" size="1" id="casa00" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa01" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa02" onkeypress="conferirJogo()">
+
+            <input type="text" maxlength="1" size="1" id="casa10" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa11" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa12" onkeypress="conferirJogo()">
+
+            <input type="text" maxlength="1" size="1" id="casa20" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa21" onkeypress="conferirJogo()">
+            <input type="text" maxlength="1" size="1" id="casa22" onkeypress="conferirJogo()">
+
+        </div>
+    </body>
+
+</html>

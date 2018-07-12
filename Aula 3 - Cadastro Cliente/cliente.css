@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 20%;
+    height: 100%;
+    background-color: #09a3c6;
+    text-align: center;
+    padding: 2%;
+    padding-top: 3%;
+    box-shadow: 5px 0px 10px grey;
+    float: left;
+}
+
+nav h2{
+    color: white;
+}
+
+nav ul{
+    padding: 0%;
+}
+
+nav li{
+    list-style: none;
+    padding: 4%;
+    
+}
+
+nav li:hover{
+    background-color:#0d6579;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main{
+    float: right;
+    width: 75%;
+}
+
+main form{
+    text-align: center;
+    
+}
+
+main form input{
+    width: 60%;
+    height: 40px;
+    margin-top: 1%;
+    padding: 10px; 
+}
+
+main form div {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    margin-top: 1%;
+    
+}
+
+main form div input {
+    width: 5%;
+    height: 15px;
+}
+
+main form div input[type="text"]  {
+    width: 100%;
+    height: 15px;
+}
+
+main form div input[type="date"] {
+    width: 100%;
+    height: 50px;
+}
+
+main form div input[type="file"] {
+    width: 50%;
+    height: 15px;
+}
+
+main form div button {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #09a3c6;
+}
+
+#botao{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main form fieldset{
+    width: 57%;
+    margin: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+main form fieldset div{
+    width: 100%;
+    margin-top: 10px;
+}

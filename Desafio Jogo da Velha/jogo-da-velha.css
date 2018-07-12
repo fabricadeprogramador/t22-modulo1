@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+}
+
+#jogador{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+#jogador input{
+    height: 20px;
+    width: 30%;
+}
+
+#tabuleiro{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+#tabuleiro input{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
