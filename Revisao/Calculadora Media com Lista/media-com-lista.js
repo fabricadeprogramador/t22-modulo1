@@ -19,6 +19,7 @@ class Media{
             soma += this.lista[i];  
         }
 
+        
         media = soma/this.lista.length;
         this.exibirResultado(media);
 

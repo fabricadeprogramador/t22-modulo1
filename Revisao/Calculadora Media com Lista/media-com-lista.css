@@ -1,16 +1,47 @@
 body{
     font-family: sans-serif;
     background-color: lightgray;
+    padding: 10%;
+}
+div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
+div div{
+    margin-top: 10px;
+}
 h1{
     font-size: 30pt;
 }
 
 input{
-    width: 40%;
+    width: 70%;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: 25px;
 }
 
 button{
-    width: 20%;
+    width: 45%;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.adicionar{
+    background-color: #43A047;
+}
+.media{
+    background-color: #B71C1C;
+}
+
+#resultado{
+    margin-top: 10px;
+    font-size: 20pt;
 }
