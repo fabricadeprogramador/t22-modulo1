@@ -1,0 +1,51 @@
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+#divPrincipal{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 40pt;
+}
+
+input{
+    border: 0px;
+    font-size: 30px;
+    height: 45px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#divBotoes{
+    margin-top: 10px;
+}
+
+button{
+    border: 0px;
+    font-size: 30px;
+    height: 45px;
+    width: 20%;
+    border-radius: 5px;
+    color:white;
+}
+
+.maior{
+    background-color: blue;
+}
+
+.menor{
+    background-color: red;
+}
+
+#resultado{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
