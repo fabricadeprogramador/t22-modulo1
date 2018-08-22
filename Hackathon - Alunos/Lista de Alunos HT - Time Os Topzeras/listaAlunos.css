@@ -1,0 +1,81 @@
+body {
+   
+        background-color: #ADD7E5;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #f8f1f1;
+    text-shadow: 2px 2px rgb(172, 167, 167);
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
+input {
+    border-radius: 5px;
+    width: 700px;
+    height: 30px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#nome {
+    width: 500px;
+    margin-top: 10px;
+}
+
+#posicao {
+    width: 90px;
+    margin-top: 10px;
+}
+
+button{
+    border-radius: 5px;
+    width: 165px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+#posicao{
+    width: 165px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#787672;
+}
+
+input::placeholder {
+    text-indent:7px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th{
+    width: 10%;
+}
+table {
+    margin-left: 340px;
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+    
+}
+th{
+    width: 400px;
+}

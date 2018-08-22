@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="alunos.css">
+        <script src="alunos.js"></script>
+    </head>
+
+    <body>
+
+        <div>
+            <h1> Lista de Alunos HT</h1>
+            <input type="text" id="aluno" placeholder="Nome do Aluno">
+            <input type="number" id="posicao" placeholder="Posição">
+        </div>
+
+        <div>
+            <button type="button" class="noInicio" onclick="aluno.adicionarInicio()"> Adicionar No Inicio</button>
+            <button type="button" class="naPosicao" onclick="aluno.adicionarPosicao()"> Adicionar Na Posição</button>
+            <button type="button" class="noFinal" onclick="aluno.adicionarFinal()"> Adicionar No Final</button>
+            <button type="button" class="remover" onclick="aluno.remover()"> Remover</button>
+        </div>
+        
+    </body>
+</html>

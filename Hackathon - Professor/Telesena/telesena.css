@@ -1,0 +1,69 @@
+body{
+    background-color: #1565C0;
+    font-family: sans-serif;
+}
+
+div{
+    width: 58%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50pt;
+}
+
+button{
+    min-width: 20%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    background-color: #FFA726;
+
+}
+
+img{
+    margin-top: 20%;
+    margin-right: 5%;
+    float: right;
+}
+
+#resultado{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.pontos{
+    width: 100%;
+    height: 65px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+.pontos h3{
+    font-size: 18pt;
+    color: white;
+}
+.numeroSorteado{
+    width: 65px !important;
+    height: 50px!important;
+    font-size: 22pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: left;
+    padding-top: 15px;
+    border-radius: 50%;
+    background-color: white;
+    
+}

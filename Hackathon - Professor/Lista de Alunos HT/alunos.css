@@ -1,0 +1,91 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 36pt;
+    color: white;
+    text-shadow: 3px 3px #616161;
+}
+div{
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+input{
+    height: 40px;
+    border: 0px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-indent: 10px;
+    border-radius: 5px;
+}
+#aluno{
+    width: 51%;
+   
+}
+
+#posicao{
+    width: 10%;
+}
+
+
+button{
+    height: 40px;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.noInicio{
+    background-color: #43A047;
+}
+.naPosicao{
+    background-color: #5E35B1;
+}
+.noFinal{
+    background-color: #757575;
+}
+.procurar{
+    background-color: #FB8C00;
+}
+.remover{
+    background-color: #E53935;
+}
+
+#tabela{
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    text-indent: 10px;
+    border: 1px solid #424242;
+    padding: 0px;
+    border-collapse: collapse;
+    background-color: #F5F5F5;
+    color: #616161;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#tabela th, td{
+    border-bottom: 1px solid #424242;
+    border-right: 1px solid #424242;    
+    margin: 0px;
+    padding: 0px;
+}
+
+.posicaoTabela{
+    width: 15%;
+    text-align: center;
+}
