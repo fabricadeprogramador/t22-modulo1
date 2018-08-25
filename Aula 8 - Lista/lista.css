@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    margin-top: 15%;
+    background-color: #E0E0E0;
+}
+
+h1{
+    color: #424242;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    width: 300px;
+    font-family: sans-serif;
+    text-indent: 20px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.botoes{
+    width: 300px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.botoes button{
+    width: 24%;
+    height: 30px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+button:disabled{
+    background-color: lightgray !important;
+}
+
+#adicionar{
+    background-color:#43A047;
+}
+
+#ordenar{
+    background-color: #039BE5;
+}
+
+#impar{
+    background-color: #FB8C00;
+}
+
+#par{
+    background-color: #E53935;
+}
+
+
+#lista{
+    margin: auto;
+    width: 300px;
+    margin-top: 10px;
+}
+
+div div{
+    float: left;
+    padding: 5px;
+    margin-left: 5px;  
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
