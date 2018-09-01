@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1526633731461-c7903581c0bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1c06a3764f00be9f50bc270c59c98b0d&auto=format&fit=crop&w=1500&q=80");
+    background-size: cover;
+    font-family: "Comic Sans MS";
+
+}
+div{
+    margin: 5px;
+}
+.formulario{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.formulario h1{
+     color: white;
+     font-size: 60pt;
+     text-shadow: 5px 10px 5px black;
+}
+
+.formulario input{
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 30px;
+    text-indent: 5px;
+    
+}
+
+#nome, #corDosOlhos{
+    width: 100%;
+}
+
+#idade, #altura, #peso, #andar, #correr, #falar{
+    width: 32.9%;
+}
+
+button{
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+}
+#divSalvar button{
+    width: 100%;
+    background-color: #7E57C2;
+    
+}
+
+#andar{
+    background-color: #43A047;
+}
+
+#correr{
+    background-color: #F44336;
+}
+
+#falar{
+    background-color: #FFEB3B;
+}
+
+#divAcao{
+    display: none;
+}
+table{
+    width: 59%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+table th{
+    background-color: #424242;
+    color:white;
+    
+}
+
+table td{
+    background-color: white;
+    color:#424242;
+}

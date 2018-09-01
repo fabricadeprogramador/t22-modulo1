@@ -1,14 +1,15 @@
 class CachorroController{
     constructor(){
-        this.cachorro = new Cachorro();
-        
+        this.cachorro = new Cachorro();  
     }
 
     salvar(){
         this.cachorro.nome = document.getElementById("nome").value;
-        this.cachorro.tamanho = document.getElementById("tamanho").value;
-        
-        
+        this.cachorro.tamanho = document.getElementById("tamanho").value;   
+        var div = document.createElement("div");
+        div.innerText= "\n";
+        document.body.appendChild(div
+        );
     }
 
     latir(){
@@ -16,8 +17,7 @@ class CachorroController{
     }
 
     lamber(){
-        this.cachorro.lamber();
-        
+        this.cachorro.lamber();  
     }
 }
 
