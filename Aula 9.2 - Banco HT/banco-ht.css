@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background-color: #99E3F3;
+}
+
+h1{
+    color: #01579B;
+    font-weight: 800;
+    font-size: 35pt;
+}
+
+h3{
+    color: white;
+    float: left;
+}
+
+.principal{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+
+button{
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: #01579B;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-indent: 5px;
+    box-shadow: 1px 3px 5px gray;
+}
+.criarConta button{
+    width: 100%;
+}
+
+#utilizacao{
+    display: none;
+}
+
+.acoes button{
+    width: 49.6%;
+}
+.bemVindo{
+    display: none;
+}
+
+#animacao{
+    background-image: url("https://media.giphy.com/media/5fBH6zoAQg9dHK2ttsc/giphy.gif");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+#depositar{
+    background-color: #2E7D32;
+    color: white;
+}
+
+#sacar{
+    background-color: #D32F2F;
+    color: white;
+}
+
+.aberturaDeConta{
+    width: 100%;
+    text-align: center;
+    
+}
+#gifAbertura {
+    width: 27%;
+    float: right;
+}
+#gifUtilizacao{
+    margin-top: 100px !important;
+    width: 27%;
+    display: none;
+    margin: auto;
+}

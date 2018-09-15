@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="banco-ht.css">
+        <script src="conta.js"></script>
+        <script src="banco-controller.js"></script>
+    </head>
+
+    <body>
+
+        <div class="principal">
+            <div>
+                <h1 id="bemVindo">Banco HT </h1>
+                <div id="animacao"></div>
+                <div id="aberturaDeConta">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <div class="criarConta">
+                        <button type="button" onclick="bancoController.criarConta()"> Criar Conta</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            <div id="utilizacao">
+                <input type="number" id="valor" placeholder="R$:00,00">
+                <div class="acoes">
+                    <button type="button" id="depositar" onclick="bancoController.depositar()"> Depositar</button>
+                    <button type="button" id="sacar" onclick="bancoController.sacar()"> Sacar</button>
+                </div>
+
+            </div>
+            <div>
+                <h3 id="saldo"></h3>
+            </div>
+            
+        </div>
+        <div class="aberturaDeConta">
+                <img id="gifAbertura" src="https://media.giphy.com/media/72HahsJD4atSE/giphy.gif">
+                <img id="gifUtilizacao" src="https://media.giphy.com/media/3o7bubCmPeUyHHQ9zO/giphy.gif">
+            </div>
+    </body>
+
+</html>
