@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+        <title>HT Veículos</title>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="concessionaria.css">
+        <script src="carro.js"></script>
+        <script src="concessionaria-controller.js"></script>
+    </head>
+
+    <body>
+        
+        <div id="cadastro"> 
+
+            <div class="cabecalho">
+                <h1> HT Veículos </h1>
+            </div>
+
+            <div class="nome">
+                <input type="text" id="nome" placeholder="Nome">    
+            </div>
+            
+            <div class="corPortasKM">
+                <input type="text" id="cor" placeholder="Cor">
+                <input type="number" id="quantidadePortas" placeholder="Quantidade de Portas">
+                <input type="text" id="km" placeholder="KM">
+            </div>
+
+            <div class="fabricante">
+                <select name="fabricante" id="fabricante">
+                        
+                    <option value="" > Escolha o Fabricante </option>
+                    <option value="Chevrolet"> Chevrolet </option>
+                    <option value="Ford"> Ford </option>
+                    <option value="Honda"> Honda </option>
+                    <option value="Toyota"> Toyota </option>
+                    <option value="Volkswagen"> Volkswagen </option>
+    
+                </select>
+                <input type="number" id="anoFabricacao" placeholder="Ano de Fabricação">
+
+            </div>
+           
+            <div class="precoEFoto">
+                <input type="text" id="preco" placeholder="Preço">
+            
+                <input type="text" id="foto" placeholder="Link Foto">
+            </div>
+            
+            <div>
+                <button type="button" onclick="concessionariaController.salvar()"> Salvar</button>
+            </div>
+        </div>
+
+        <div id="anuncio">
+
+        </div>
+
+    </body>
+
+</html>
