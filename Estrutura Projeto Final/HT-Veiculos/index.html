@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <title>HT Veículos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="carro/carro.css">
+        <script src="menu.js"></script>
+    </head>
+
+    <body>
+        
+        <div id="slogan" onclick="menuController.entrar()">
+            <h1> HT VEÍCULOS </h1>
+            <h3> Encontre aqui seu próximo carro</h3>
+        </div>
+
+        <div id="site">
+            <nav>
+                <h2>Menu</h2>
+                <ul>
+                    <li> <button onclick="menuController.carro()"> Carro </button></li>
+                    <li> <button onclick="menuController.caminhonete()"> Caminhonete</button></li>
+                    <li> <button onclick="menuController.caminhao()"> Caminhão</button></li>
+                    <li> <button onclick="menuController.moto()"> Moto</button></li>
+                    
+
+
+                </ul>
+            </nav>
+
+            <div id="centro"></div>
+        </div>
+    </body>
+</html>

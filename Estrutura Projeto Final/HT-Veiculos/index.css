@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    
+}
+#site{
+    display: none;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #212121;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+ul{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+}
+ul li{
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+ul li button{
+    border: 0px;
+    height: 35px;
+    width: 95%;
+    font-size: 12pt;
+    font-weight: 800;
+    color: white;
+    background-color: #424242;
+    
+}
+#centro{
+    float: right;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+object{
+    width: 100%;
+    height: 100%;
+}
+
+#slogan{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#slogan h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40pt;
+    font-weight: 900;
+    color: white;
+}
+
+#slogan h3{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 600;
+    color: white;
+}
