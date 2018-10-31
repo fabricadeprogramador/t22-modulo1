@@ -24,12 +24,17 @@ class CarroController{
 
         this.carros.push(carro);
 
+
         window.localStorage.setItem("carros",JSON.stringify(this.carros));
 
         console.log(this.carros);
         for (let i = 0; i < this.carros.length; i++) {
             this.anunciarCarro(this.carros[i]);
             
+        }
+
+        for(var i=0; i<this.carros.length ;i++){
+            console.log(this.carros[i].nome.indexOf("ken"));
         }
     }
     anunciarCarro(carro){
@@ -41,6 +46,7 @@ class CarroController{
         img.src = carro.foto;
 
         div.appendChild(img);
+
 
         var fabricante = document.createElement("span");
         fabricante.className = "fabricante";
