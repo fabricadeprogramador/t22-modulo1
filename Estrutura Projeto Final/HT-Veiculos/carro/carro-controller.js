@@ -1,7 +1,8 @@
 class CarroController{
     constructor(){
         this.carros = new Array();
-        
+        this.carrinho = new CarrinhoController();
+        console.log(this.carrinho);
     }
 
     carregarAnuncio(){
@@ -27,17 +28,17 @@ class CarroController{
 
         window.localStorage.setItem("carros",JSON.stringify(this.carros));
 
-        console.log(this.carros);
+        //Funcao que chama o anunciar carro para exibir os anuncios na tela
         for (let i = 0; i < this.carros.length; i++) {
-            this.anunciarCarro(this.carros[i]);
+            this.anunciarCarro(this.carros[i],this.carrinho);
             
         }
 
-        for(var i=0; i<this.carros.length ;i++){
-            console.log(this.carros[i].nome.indexOf("ken"));
-        }
+        
     }
-    anunciarCarro(carro){
+
+    //Passar como parametro o carro selecionado e o carrinho para poder motar o onclick
+    anunciarCarro(carro,carrinho){
 
         var div = document.createElement("div");
         div.className="carro";
@@ -98,6 +99,16 @@ class CarroController{
         divPreco.appendChild(preco);
         div.appendChild(divPreco);
         
+        var botao = document.createElement("button");
+        
+        botao.onclick = function(){
+            carrinho.adicionar(carro);
+        } 
+
+        botao.innerText = "Adicionar";
+
+        //Comentado para nao aparecer na tela, apenas exemplo
+        //div.appendChild(botao);
 
         document.getElementById("anuncio").appendChild(div);
 
